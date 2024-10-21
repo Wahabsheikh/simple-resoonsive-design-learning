@@ -26,10 +26,6 @@
   ...;
 } */
 @media all and (min-width: 1001px) {
-  #header h3 {
-    color: red;
-    font-weight: bold;
-  }
   #body {
     background-color: hotpink;
   }
@@ -46,10 +42,7 @@
     justify-content: end;
     padding: 0 10px;
   }
-  #header h3 {
-    color: fuchsia;
-    font-weight: bold;
-  }
+
   #body {
     color: white;
     background-color: firebrick;
@@ -71,10 +64,7 @@
     justify-content: start;
     padding: 0 10px;
   }
-  #header h3 {
-    color: red;
-    font-weight: bold;
-  }
+
   #body {
     background-color: darkkhaki;
   }
@@ -90,10 +80,7 @@
     justify-content: start;
     padding: 0 10px;
   }
-  #header h3 {
-    color: red;
-    font-weight: bold;
-  }
+
   #body {
     background-color: darkkhaki;
   }
