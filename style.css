@@ -1,0 +1,88 @@
+/*header section start to here*/
+#header {
+  width: 100%;
+  height: 50px;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px 5px;
+}
+#header h3 {
+  font-weight: bold;
+  color: white;
+}
+#header h3::after {
+  content: "(wahab)";
+}
+
+/* header section closed here */
+
+/* body section start to here */
+
+#body {
+  width: 100%;
+  /* height: 1500px; */
+  background-color: slategrey;
+}
+#body h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#body p {
+  text-transform: capitalize;
+}
+
+/* menu card section */
+#body .menuCard {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#body .menuCard .card {
+  margin: 10px 10px;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 20%;
+  border: 2px solid black;
+  border-radius: 6px 30px;
+}
+
+/* #body .menuCard .card img {
+  width: 200px;
+} */
+#body .menuCard .card .product {
+  text-align: center;
+}
+#body .menuCard .card .product h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+#body .menuCard .card .product h3::after {
+  content: "(lattest)";
+  text-transform: uppercase;
+  font-size: 10px;
+}
+/* body section closed here */
+
+/* footer section start to here */
+
+#footer {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+#footer h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+/* footer section closed here */

@@ -1,0 +1,106 @@
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  ...;
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  ...;
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  ...;
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  ...;
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  ...;
+} */
+@media all and (min-width: 1001px) {
+  #header h3 {
+    color: red;
+    font-weight: bold;
+  }
+  #body {
+    background-color: hotpink;
+  }
+  #body .menuCard .card img {
+    width: 200px;
+  }
+  #body .menuCard .card {
+    max-width: 20%;
+  }
+}
+@media all and (max-width: 1000px) and (min-width: 700px) {
+  #header {
+    display: flex;
+    justify-content: end;
+    padding: 0 10px;
+  }
+  #header h3 {
+    color: fuchsia;
+    font-weight: bold;
+  }
+  #body {
+    color: white;
+    background-color: firebrick;
+  }
+  #body .menuCard .card img {
+    width: 200px;
+  }
+  #body .menuCard .card {
+    max-width: 40%;
+    color: black;
+  }
+}
+
+/* this media speacial for two in one view port too big and too small */
+
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+  #header {
+    display: flex;
+    justify-content: start;
+    padding: 0 10px;
+  }
+  #header h3 {
+    color: red;
+    font-weight: bold;
+  }
+  #body {
+    background-color: darkkhaki;
+  }
+
+  #body .menuCard .card img {
+    width: 200px;
+  }
+}
+
+@media all and (max-width: 699px) and (min-width: 520px) {
+  #header {
+    display: flex;
+    justify-content: start;
+    padding: 0 10px;
+  }
+  #header h3 {
+    color: red;
+    font-weight: bold;
+  }
+  #body {
+    background-color: darkkhaki;
+  }
+  #body .menuCard .card img {
+    width: 350px;
+  }
+  #body .menuCard .card {
+    max-width: 80%;
+  }
+}
