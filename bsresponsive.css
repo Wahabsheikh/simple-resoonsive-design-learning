@@ -102,9 +102,9 @@
     background-color: darkkhaki;
   }
   #body .menuCard .card img {
-    width: 200px;
+    width: 150px;
   }
   #body .menuCard .card {
-    max-width: 80%;
+    max-width: 60%;
   }
 }
