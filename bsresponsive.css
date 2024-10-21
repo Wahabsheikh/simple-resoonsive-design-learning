@@ -91,3 +91,20 @@
     max-width: 80%;
   }
 }
+@media all and (max-width: 519px) and (min-width: 320px) {
+  #header {
+    display: flex;
+    justify-content: start;
+    padding: 0 10px;
+  }
+
+  #body {
+    background-color: darkkhaki;
+  }
+  #body .menuCard .card img {
+    width: 350px;
+  }
+  #body .menuCard .card {
+    max-width: 80%;
+  }
+}
